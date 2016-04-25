@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    
+<meta charset="UTF-8">
+    
+<title>Document</title>
+
+</head>
+
+<body>
+   
+    
+<input id="producto" type="text" autofocus>
+<input id="precio" type="number" step="0.01">
+
+<button onclick="agregar('producto', 'precio')">Agregar</button>
+<table>
+<thead>
+<tr>
+
+<th>Producto</th>
+<th>Precio</th>
+<th>¿Eliminar?</th>
+</tr>
+</thead>
+<tbody id="container">
+<!-- Aqui se van guardando las filas con los productos -->
+</tbody>
+<tfoot>
+<td></td>
+<td>Total:</td>
+
+<td id="total"></td>
+
+</tfoot>
+
+</table>
+
+</body>
+
+<script src="C:\Users\Cristian Rosado\Desktop\code.js" type="application/javascript"></script>
+
+<div class="capa1">
+Texto de prueba 1
+<ul class="elementos1">
+<li>Elemento de prueba 1</li>
+<li>Elemento de prueba 2</li>
+<li>Elemento de prueba 3</li>
+</ul>
+</div>
+<div class="espacio10"></div>
+<div class="botones">
+append()
+<br /><br />
+Añadimos elementos / contenido al final
+<br /><br />
+<input type="button" id="boton_append_1" value="Añadir elemento 1" />
+<input type="button" id="boton_append_2" value="Añadir elemento 2" />
+<input type="button" id="boton_append_3" value="Añadir contenido 1" />
+<input type="button" id="boton_append_4" value="Añadir contenido 2" />
+</div>
+<div class="espacio10"></div>
+<div class="botones">
+prepend()
+<br /><br />
+Añadimos elementos / contenido al principio
+<br /><br />
+<input type="button" id="boton_prepend_1" value="Añadir elemento 1" />
+<input type="button" id="boton_prepend_2" value="Añadir elemento 2" />
+<input type="button" id="boton_prepend_3" value="Añadir contenido 1" />
+<input type="button" id="boton_prepend_4" value="Añadir contenido 2" />
+</div>
+
+</html>
